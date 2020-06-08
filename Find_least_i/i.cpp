@@ -1,4 +1,5 @@
 //找到第i小值
+
 #include <stdio.h>
 #include <iostream>
 #include <time.h>
@@ -8,7 +9,7 @@ int N = 200000;
 int I=N/2;
 int TIMES = 0;
 int select(int *a, int length, int i);
-int partition(int *a, int p, int r, int m);
+int partition(int *a, int p, int r, int m);//https://youyun666.site/link/GaKXFn1OkygICQcL?sub=3
 void swap(int *a, int *b);
 int main()
 {
